@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+    <link rel="shortcut icon" href="imagens/logo1.png" type="image/x-icon">
+    <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Google Fontes -->
+    <!--Link do Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Link do Bootstrap-->
+    <title>Leão de Judá Multimarcas</title>
+</head>
+<body>
+    <header id="header">
+        <div id="" class="interface">
+            <div class="logo">
+              <a href="index.html"><img src="imagens/logo4.png" alt="logo da empresa" width="120"></a> 
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#loja">Nossa Loja</a></li>
+                    <li><a href="#clientes">Nossos Clientes</a></li>
+                    <li><a href="#pagamento">Serviços</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button><i class="bi bi-whatsapp"></i></button>
+                </a>
+            </div>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <!--MENU MOBILE-->
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div> 
+
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#loja">Nossa Loja</a></li>
+                        <li><a href="#clientes">Nossos Clientes</a></li>
+                        <li><a href="#pagamento">Serviços</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--MENU MOBILE-->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+            <div class="whatsapp">
+                <a href="https://wa.me/5588994862679" target="_blank">
+                     <i class="bi bi-whatsapp"></i>
+                </a>
+            </div><!--WHATSAPP-->
+            
+        </div><!---interface--->
+    </header>
+
+    <main>
+        <section id="inicio" class="topo-site">
+            <div class="plano-fundo" style="background-image: url(imagens/planofundo.jpg);"></div>
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>O LUGAR CERTO PARA REALIZAR O SEU SONHO.</h1>
+                        <p>Na Leão de Judá Multimarcas, você encontra o carro que sempre quis com o menor preço e as melhores condições de financiamento da região. Nosso maior prazer é ver o sorriso no rosto dos nossos clientes ao realizar o grande sonho de comprar o seu carro. Venha conhecer!</p>
+
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div> <!--txt-topo-site-->
+
+                    
+                    <div class="img-topo-site">
+                        <img src="imagens/logo3.png" alt="">
+                    </div>
+                </div> <!--flex-->
+            </div> <!--interface-->
+        </section><!-- topo-site -->
+
+        <section id="loja" class="loja">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-loja">
+                        <img src="imagens/loja1.png" alt="">
+                    </div><!--img-loja-->
+
+                    <div class="txt-loja">
+                        <h2>MUITO PRAZER, <span>SOMOS A LEÃO DE JUDÁ MULTIMARCAS.</span></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem voluptatibus aut soluta ex, dolore deserunt suscipit velit minus. Repudiandae delectus beatae sunt, dicta sit dolores laboriosam distinctio ab ipsam natus!</p><br>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem voluptatibus aut soluta ex, dolore deserunt suscipit velit minus. Repudiandae delectus beatae sunt, dicta sit dolores laboriosam distinctio ab ipsam natus!</p>
+
+                        <div class="btn-social">
+                            <a href=""><button><i class="bi bi-whatsapp"></i></button></a>
+                            <a href=""><button><i class="bi bi-envelope"></i></button></a>
+                        </div>
+
+                    </div><!--txt-loja-->                   
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--loja-->
+
+        <section id="clientes" class="clientes">
+            <div class="interface">
+                <h2>NOSSOS <span>CLIENTES</span></h2>
+                <div class="flex">
+                    <div class="img-clientes" style="background-image: url(imagens/clientes.jpeg);"></div>
+                    <div class="img-clientes" style="background-image: url(imagens/clientes2.jpeg);"></div>
+                    <div class="img-clientes" style="background-image: url(imagens/clientes3.jpeg);"></div>
+                </div><!--flex-->
+            </div> <!--interface-->
+        </section>
+
+        <section id="pagamento" class="pagamento">
+            <div class="interface">
+                <h2 class="titulo"><span>SERVIÇOS</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <h3>Vem pra melhor! </h3>
+                            <ul>
+                                <li>Compra</li>
+                                <li>Venda</li>
+                                <li>Troca</li>
+                                <li>Financia</li>
+                                <li>Consignado</li>
+                            </ul>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <h3>Formas de pagamento!</h3>
+                        <ul>
+                            <li>À Vista</li>
+                            <p>PIX e TED</p>
+                        </ul>
+                        <ul>
+                            <li>Cartão de Crédito</li>
+                        </ul>
+                        <ul>
+                            <li>Financiamento</li>
+                            <p>Financiamos em todas as financeira</p>
+                        </ul>
+                        <ul>
+                            <li>Consórcio</li>
+                            <p>Carta de Crédito</p>
+                        </ul>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <h3>Nossos diferenciais!</h3>
+                           <ul>
+                            <li>Procedência</li>
+                            <li>Qualidade</li>
+                            <li>Higienização</li>
+                           </ul>
+                    </div>
+
+                </div> <!--flex-->
+            </div><!--interface-->
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                        <div class="logo-footer">
+                            <img src="imagens/logo4.png" alt="">
+                        </div>  
+                        
+                        <div class="btn-social">
+                            <a href=""><button><i class="bi bi-whatsapp"></i></button></a>
+                            <a href=""><button><i class="bi bi-envelope"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="direitos">
+                <p> 2024 Leão de Judá Multimarcas - Todos os direitos reservados &reg;</p>
+                <p>Desenvolvido por W Web Soluções &copy;</p>
+            </div>
+        </div><!--interface-->
+    </footer>
+
+
+    
+</body>
+</html>
+
